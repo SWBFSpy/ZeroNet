@@ -36,7 +36,7 @@ AIM_REALISM = 0-1
 - 0 is set to strongest aim possible, basically like a perfect aimbot accuracy, maximized headshots
 - 1 toggles on a handicap which adds realistic player aim handicaps, weakening the overall accuracy of attacks by varying percentages, this should be used when difficulty is set to anything above 0 or the AI will have poorer tactics but perfect aim
 
-ZOMBIE_REALISM
+ZOMBIE_REALISM = 0-2
 - 0 is for disabled
 - 1 is for Normal Zombie, which makes the AI patrol regions of the map as zombies, and can use sound or vision to detect enemies which it then targets, they also never flinch from grenades or other weapons, and responds to map boundaries and objects differently than the stock AI
 - 2 is for Feral, which is just like 1, but zombies can always sense enemy units location from anywhere on the map and hunt them down, and are more aggressive overall, unlimited radar
@@ -62,7 +62,7 @@ IGNORE_COMBO_ATTACKS = 0-1
 - 0 the AI uses combo attacks in a triggerbot style, aka fast swapping between syngergistic weapons such as blaster cannon and pistol, rifle and pistol, or wrist blaster and tri shot
 - 1 the AI does not prefer super fast combo attacks, and is more reluctant to switch weapons like the stock AI, this may be better for some units such as sniper
 
-AI_COMMANDER = 0
+AI_COMMANDER = 0-3
 - 0 is balanced, the ZeroNet AI  only sends commands to the Battlefront AI when it thinks there is a tactical advantage to doing so, such as telling the AI to hold position on some areas
 - 1 has the ZeroNet AI command stock SWBF bots to Move Out or Exit Vehicles
 - 2 has the ZeroNet AI command stock SWBF bots to Follow Me or Enter Vehicles
